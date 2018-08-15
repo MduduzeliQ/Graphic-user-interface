@@ -1,13 +1,13 @@
 page-home {
 .Ps{
-    text-align: center;
+  text-align: center;
 }
 .ions{
     text-align:right;
 }
 button{
     height:40%;
-    width:  48.5%;
+    width:  45%;
 }
 .pep{
     color:rgb(255, 115, 0);
@@ -20,5 +20,11 @@ button{
 .peps{
     display: flex;
     justify-content: space-between;
+}
+.takes{
+    position: fixed;
+}
+ion-footer{
+    position: fixed;
 }
 }

@@ -11,26 +11,22 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
+<ion-content>
 <p class="Ps"><b>3</b> Items</p>
 <br>
-<ion-card>
-
+<ion-card class="takes">
+  <ion-list>
   <ion-item>
     <ion-avatar item-start>
       <img src="../../assets/speak.jpg">
     </ion-avatar>
-   
-   
     <div class="peps">
         <h2><b>JBL Flip 3</b></h2>
         <ion-icon name="ios-add-outline"></ion-icon>
       </div>
     <p>Bluetooth Speakers / Black</p>
-    <br>
     <p align="right">2</p> 
-    <br>
-    <br>
+<br>
     <div class="peps">
         <p class="pep">$165.00</p>
       <ion-icon name="ios-remove-outline"></ion-icon>
@@ -41,15 +37,12 @@
     <ion-avatar item-start>
       <img src="../../assets/philips.jpg">
     </ion-avatar>
-   
     <div class="peps">
         <h2><b>Philips QT4006/15</b></h2> 
         <ion-icon name="ios-add-outline"></ion-icon>
       </div>
     <p>Hair Removal / Trimmer</p>
-    <br>
     <p align="right">1</p>
-    <br>
     <br>
     <div class="peps">
         <p class="pep">$21.49</p>
@@ -57,7 +50,7 @@
     </div>
   </ion-item>
 
-  <ion-item>
+   <ion-item>
     <ion-avatar item-start>
       <img src="../../assets/GetABag.jpg">
     </ion-avatar>
@@ -66,10 +59,7 @@
         <ion-icon name="ios-add-outline"></ion-icon>
       </div>
     <p>Bluetooth Speakers / Black</p>
-    <br>
     <p align="right">2</p> 
-    <br>
-    <br>
     <div class="peps">
         <p class="pep">$10.49</p>
       <ion-icon name="ios-remove-outline"></ion-icon>
@@ -79,10 +69,17 @@
     <div class="textcontents">
         <p>Total : <b>$196.98</b></p> <p>Quantity : <b>5</b></p>
     </div>
-     
   </ion-item>
+
+</ion-list>
   </ion-card>
-  
-  <button ion-button color="light">Later</button>
-  <button ion-button color="secondary" >Place Order</button>
+
+  <ion-footer>
+      <ion-toolbar>
+          <button ion-button color="light">Later</button>
+          <button ion-button color="secondary" >Place Order</button>
+      </ion-toolbar>
+    </ion-footer>
 </ion-content>
+
+
